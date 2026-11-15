@@ -1,0 +1,1 @@
+{% extends "board/base.html" %}{% block content %}<form class="panel auth" method="post" action="/register/">{% csrf_token %}<h1>Create account</h1>{{ form.as_p }}<button>Create account</button></form>{% endblock %}
